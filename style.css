@@ -1,0 +1,42 @@
+#col{display: grid; grid-template-columns: auto auto auto;}
+
+
+.container{ border: 3px solid black;
+    width: 300px; height: 200px;}
+#para{background-color: greenyellow;
+     width: 90%; margin: 5px auto;
+    text-align:center; font-size: 40px; font-family: Arial, Helvetica, sans-serif; font-style: normal;
+font-weight: bold; position: relative;
+animation: nitish 2s infinite ease-in;}
+
+.item{ font-family: Arial, Helvetica, sans-serif;
+text-align: center; font-size: 40px;}
+
+@keyframes nitish{
+from{ background-color: greenyellow;}
+to{background-color: red;}
+}
+
+
+#para1{background-color: BLUE;
+    width: 90%; margin: 5px auto;
+   text-align:center; font-size: 40px; font-family: Arial, Helvetica, sans-serif; font-style: normal;
+font-weight: bold; position: relative;
+animation: nitish1 2s infinite ease-in;}
+
+@keyframes nitish1{
+    from{ background-color: blue;}
+    to{background-color: red;}
+    }
+
+    #para2{background-color: yellow;
+        width: 90%; margin: 5px auto;
+       text-align:center; font-size: 40px; font-family: Arial, Helvetica, sans-serif; font-style: normal;
+    font-weight: bold; position: relative;
+    animation: nitish2 2s infinite ease-in;}
+
+    @keyframes nitish2{
+        from{ background-color: yellow;}
+        to{background-color: red;}
+        }
+    
